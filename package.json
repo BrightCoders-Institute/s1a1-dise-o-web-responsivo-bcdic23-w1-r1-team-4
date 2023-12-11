@@ -1,0 +1,15 @@
+{
+  "name": "s1a1-dise-o-web-responsivo-bcdic23-w1-r1-team-4",
+  "version": "1.0.0",
+  "description": "![BrightCoders Logo](img/logo.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
