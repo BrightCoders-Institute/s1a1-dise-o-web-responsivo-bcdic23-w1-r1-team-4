@@ -3,7 +3,16 @@ footer {
   margin: 20px;
   background-color: hsl(192, 100%, 9%);
   color: white;
-  color-div-border: 4px solid green;
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  flex-direction: column;
+}
+footer .footer__vertical-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
 }
 
 main {
