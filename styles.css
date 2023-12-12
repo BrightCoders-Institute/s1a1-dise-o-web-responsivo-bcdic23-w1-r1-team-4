@@ -1,9 +1,12 @@
 footer {
   border: 4px solid black;
   margin: 20px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  color-div-border: 4px solid green;
 }
 
-div {
+main {
   border: 4px solid black;
   margin: 20px;
 }
