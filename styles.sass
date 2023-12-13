@@ -1,4 +1,19 @@
+
+@import url(https://fonts.google.com/specimen/Open+Sans)
+@import url(https://fonts.google.com/specimen/Poppins)
+
+$Pink: hsl(322, 100%, 66%)
+$Very-Pale-Cyan: hsl(193, 100%, 96%)
+$Very-Dark-Cyan: hsl(192, 100%, 9%)
+$Grayish-Blue: hsl(208, 11%, 55%)
 $dark-blue: hsl(192, 100%, 9%)
+$font-size: 18px
+$font-weight-thin: 400
+$font-weight-thick: 600
+$font-weight-thickest: 700
+
+h1
+    font-family: 'Poppins'
 body
     display: flex
     flex-direction: column
@@ -26,8 +41,37 @@ footer
         justify-content: center
 
 main
+
+    display: flex
+    flex-direction: column
+    align-items: center
+
     border: 4px solid black
     margin: 0
+    padding-bottom: 20%
+    .button-card
+        z-index: -1
+        position: relative
+        margin: 5% 2.5% -50% 2.5%
+
+    div
+        text-align: center
+        border-radius: 10px
+        padding: 5% 1%
+        margin: 5% 2.5%
+        border: 2px
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+        width: 80%
+        font-size: 8px
+        button
+            color: white
+            border-style: none
+            background-color: $Pink
+            width: 60%
+            height: 20%
+            border-radius: 20px
+        img
+            width: 100%
 
 header
     border: 4px solid black
@@ -45,7 +89,4 @@ ul
     svg
         width: 25px
         height: 25px
-        viewBox: 0 0 50 50  
-    
-
- 
+        viewBox: 0 0 50 50
