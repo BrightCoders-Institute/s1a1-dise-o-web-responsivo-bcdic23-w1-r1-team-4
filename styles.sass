@@ -11,7 +11,8 @@ $font-size: 18px
 $font-weight-thin: 400
 $font-weight-thick: 600
 $font-weight-thickest: 700
-
+$poppins-font: 'Poppins', sans-serif
+$open-sans: 'Open Sans', sans-serif
 h1
     font-family: 'Poppins'
 body
@@ -50,9 +51,16 @@ main
     margin: 0
     padding-bottom: 20%
     .button-card
-        z-index: -1
+        font-family: $poppins-font
+        z-index: -10
         position: relative
-        margin: 5% 2.5% -50% 2.5%
+        margin: 5% 2.5% -80% 2.5%
+    p
+        font-family: $open-sans
+        color: $Grayish-Blue
+    h1
+        font-family: $poppins-font
+        color: $dark-blue
 
     div
         text-align: center
@@ -63,19 +71,25 @@ main
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
         width: 80%
         font-size: 8px
-        button
-            color: white
-            border-style: none
-            background-color: $Pink
-            width: 60%
-            height: 20%
-            border-radius: 20px
+        
         img
             width: 100%
 
+.btn
+    color: white
+    border-style: none
+    background-color: $Pink
+    width: 60%
+    height: 20%
+    border-radius: 20px
+
 header
+    display: flex
+    flex-direction: column
     border: 4px solid black
     margin: 0
+    align-items: center
+    text-align: center
 
 ul
     list-style: none
@@ -87,6 +101,6 @@ ul
     flex-direction: row
     justify-content: space-around
     svg
-        width: 25px
-        height: 25px
+        width: 15px
+        height: 15px
         viewBox: 0 0 50 50

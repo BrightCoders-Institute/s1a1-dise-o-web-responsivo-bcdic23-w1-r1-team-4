@@ -1,7 +1,7 @@
 @import url(https://fonts.google.com/specimen/Open+Sans);
 @import url(https://fonts.google.com/specimen/Poppins);
 h1 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 footer {
   border: 4px solid black;
   margin: 0;
-  background-color: hsl(192, 100%, 9%);
+  background-color: #00252e;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -22,11 +22,13 @@ footer {
   flex-direction: column;
   bottom: 0;
 }
+
 footer .footer__vertical-alignment {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 footer .footer__horizontal-alignment {
   font-size: 10px;
   display: flex;
@@ -42,11 +44,24 @@ main {
   margin: 0;
   padding-bottom: 20%;
 }
+
 main .button-card {
-  z-index: -1;
+  font-family: "Poppins", sans-serif;
+  z-index: -10;
   position: relative;
-  margin: 5% 2.5% -50% 2.5%;
+  margin: 5% 2.5% -80% 2.5%;
 }
+
+main p {
+  font-family: "Open Sans", sans-serif;
+  color: #808d99;
+}
+
+main h1 {
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+}
+
 main div {
   text-align: center;
   border-radius: 10px;
@@ -57,26 +72,33 @@ main div {
   width: 80%;
   font-size: 8px;
 }
-main div button {
-  color: white;
-  border-style: none;
-  background-color: hsl(322, 100%, 66%);
-  width: 60%;
-  height: 20%;
-  border-radius: 20px;
-}
+
 main div img {
   width: 100%;
 }
 
+.btn {
+  color: white;
+  border-style: none;
+  background-color: #ff52bf;
+  width: 60%;
+  height: 20%;
+  border-radius: 20px;
+}
+
 header {
+  display: flex;
+  flex-direction: column;
   border: 4px solid black;
   margin: 0;
+  align-items: center;
+  text-align: center;
 }
 
 ul {
   list-style: none;
 }
+
 ul li {
   margin-top: 25px;
 }
@@ -86,10 +108,9 @@ ul li {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .icons svg {
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   viewBox: 0 0 50 50;
 }
-
-/*# sourceMappingURL=styles.css.map */
