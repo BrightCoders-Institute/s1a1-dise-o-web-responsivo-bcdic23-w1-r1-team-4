@@ -20,15 +20,17 @@ body
     flex-direction: column
     padding: 0
     margin: 0
+    align-items: center
 footer
     margin: 0
     background-color: $dark-blue
     color: white
     display: flex
     justify-content: space-around
-    height: fit-content
+    height: 700px
     flex-direction: column
     bottom: 0
+    padding-top: 150px
 
     .footer__vertical-alignment
         display: flex
@@ -40,6 +42,12 @@ footer
         flex-direction: column
         justify-content: center
 
+.button-card
+    font-family: $poppins-font
+    z-index: -10
+    position: relative
+    margin: 5% 2.5% -80% 2.5%
+    margin-bottom: -300px 
 main
 
     display: flex
@@ -48,11 +56,8 @@ main
 
     margin: 0
     padding-bottom: 20%
-    .button-card
-        font-family: $poppins-font
-        z-index: -10
-        position: relative
-        margin: 5% 2.5% -80% 2.5%
+    
+
     p
         font-family: $open-sans
         color: $Grayish-Blue
@@ -81,6 +86,7 @@ main
     height: 20%
     border-radius: 20px
     font-weight: 600
+    padding: 3%
 
 header
     padding-top: 10%
@@ -114,6 +120,7 @@ header
         font-weight: 600
         margin-bottom: 25%
         padding: 5%
+        justify-self: center
 
     
     .homeicon

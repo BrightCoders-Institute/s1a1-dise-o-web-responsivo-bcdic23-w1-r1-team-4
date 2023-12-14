@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
+  align-items: center;
 }
 
 footer {
@@ -17,9 +18,10 @@ footer {
   color: white;
   display: flex;
   justify-content: space-around;
-  height: fit-content;
+  height: 700px;
   flex-direction: column;
   bottom: 0;
+  padding-top: 150px;
 }
 footer .footer__vertical-alignment {
   display: flex;
@@ -33,18 +35,20 @@ footer .footer__horizontal-alignment {
   justify-content: center;
 }
 
+.button-card {
+  font-family: "Poppins", sans-serif;
+  z-index: -10;
+  position: relative;
+  margin: 5% 2.5% -80% 2.5%;
+  margin-bottom: -300px;
+}
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
   padding-bottom: 20%;
-}
-main .button-card {
-  font-family: "Poppins", sans-serif;
-  z-index: -10;
-  position: relative;
-  margin: 5% 2.5% -80% 2.5%;
 }
 main p {
   font-family: "Open Sans", sans-serif;
@@ -76,6 +80,7 @@ main div img {
   height: 20%;
   border-radius: 20px;
   font-weight: 600;
+  padding: 3%;
 }
 
 header {
@@ -113,6 +118,7 @@ header #btnheader {
   font-weight: 600;
   margin-bottom: 25%;
   padding: 5%;
+  justify-self: center;
 }
 header .homeicon {
   display: flex;
