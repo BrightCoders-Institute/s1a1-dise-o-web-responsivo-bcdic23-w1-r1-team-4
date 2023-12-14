@@ -80,8 +80,10 @@ main
     width: 60%
     height: 20%
     border-radius: 20px
+    font-weight: 600
 
 header
+    padding-top: 10%
     display: flex
     flex-direction: column
     margin: 0
@@ -90,8 +92,49 @@ header
     background-image: url("./img/bg-hero-mobile.svg")
     background-size: cover
     background-position: center
+    text-align: center
+    h1
+        font-family: $poppins-font
+        color: $dark-blue
+        margin-top: 30%
+
+    p
+        font-family: $open-sans
+        color: $dark-blue
+        padding: 7% 10%
     img
-        width: 100%
+        width: 80%  
+    #btnheader
+        color: white
+        border-style: none
+        background-color: $Pink
+        width: 130%
+        height: 50%
+        border-radius: 20px
+        font-weight: 600
+        margin-bottom: 25%
+        padding: 5%
+
+    
+    .homeicon
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        button
+            width: 35%
+            height: 30%
+            border-radius: 20px
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+            border-style: none
+            font-family: $poppins-font
+            background-color: white
+            font-weight: 600
+            padding: 3%
+            
+        img
+            width: 30%
+            height: 30%
         
 
 ul
