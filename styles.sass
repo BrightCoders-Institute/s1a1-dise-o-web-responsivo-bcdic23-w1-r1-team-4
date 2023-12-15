@@ -113,6 +113,8 @@ $open-sans: 'Open Sans', sans-serif
         background-size: cover
         background-position: center
         text-align: center
+        margin-bottom: 10%
+
         h1
             font-family: $poppins-font
             color: $dark-blue
@@ -135,21 +137,28 @@ $open-sans: 'Open Sans', sans-serif
             padding: 4%
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
 
-        .homeicon
+        #top-header-container
             display: flex
             flex-direction: row
             justify-content: space-between
-            align-items: center
-            button
-                width: 35%
+            width: 90%
+            position: relative
+            #homeicon
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                width: 25%
+                position: relative
+            #header-button
+                width: 40%
                 height: 30%
                 border-radius: 20px
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
-                border-style: none
                 font-family: $poppins-font
                 background-color: white
                 font-weight: 600
-                padding: 3%
+                border-style: none
+                position: relative
 
             img
                 width: 30%
@@ -171,7 +180,12 @@ $open-sans: 'Open Sans', sans-serif
             width: 13%
 
 @media (min-width: 1440px)
-
+    body
+        display: flex
+        flex-direction: column
+        padding: 0
+        margin: 0
+        align-items: center
     main
         font-size: 20px
         display: flex
@@ -238,9 +252,6 @@ $open-sans: 'Open Sans', sans-serif
             position: relative
             right: 35%
 
-        img
-            width: 80%
-
         .pink-button
             color: white
             border-style: none
@@ -252,28 +263,30 @@ $open-sans: 'Open Sans', sans-serif
             padding: 4%
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
 
-        .homeicon
+        #top-header-container
             display: flex
             flex-direction: row
             justify-content: space-between
-            /*align-items: left*/
-            width: 15%
-            height: 10%
+            width: 100%
             position: relative
-            left: 5%
-        #btnw
-            width: 10%
-            height: 30%
-            border-radius: 20px
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
-            ont-family: $poppins-font
-            background-color: white
-            font-weight: 600
-            padding: 1%
-            border-style: none
-            position: relative
-            left: 80%
-            top: -50px
+            margin-bottom: 10%
+            #homeicon
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                width: 20%
+                position: relative
+            #header-button
+                width: 15%
+                padding: auto
+                height: 30%
+                border-radius: 20px
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+                font-family: $poppins-font
+                background-color: white
+                font-weight: 600
+                border-style: none
+                position: relative
 
         #mockups
             width: 50%

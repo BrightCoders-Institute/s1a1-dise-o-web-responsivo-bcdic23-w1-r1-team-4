@@ -101,6 +101,7 @@
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin-bottom: 10%;
   }
   header h1 {
     font-family: "Poppins", sans-serif;
@@ -126,24 +127,32 @@
     padding: 4%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
   }
-  header .homeicon {
+  header #top-header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    width: 90%;
+    position: relative;
   }
-  header .homeicon button {
-    width: 35%;
+  header #top-header-container #homeicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    position: relative;
+  }
+  header #top-header-container #header-button {
+    width: 40%;
     height: 30%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
-    border-style: none;
     font-family: "Poppins", sans-serif;
     background-color: white;
     font-weight: 600;
-    padding: 3%;
+    border-style: none;
+    position: relative;
   }
-  header .homeicon img {
+  header #top-header-container img {
     width: 30%;
     height: 30%;
   }
@@ -166,6 +175,13 @@
   }
 }
 @media (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
   main {
     font-size: 20px;
     display: flex;
@@ -235,9 +251,6 @@
     position: relative;
     right: 35%;
   }
-  header img {
-    width: 80%;
-  }
   header .pink-button {
     color: white;
     border-style: none;
@@ -249,29 +262,32 @@
     padding: 4%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
   }
-  header .homeicon {
+  header #top-header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*align-items: left*/
-    width: 15%;
-    height: 10%;
+    width: 100%;
     position: relative;
-    left: 5%;
+    margin-bottom: 10%;
   }
-  header #btnw {
-    width: 10%;
+  header #top-header-container #homeicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    position: relative;
+  }
+  header #top-header-container #header-button {
+    width: 15%;
+    padding: auto;
     height: 30%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27);
-    ont-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: white;
     font-weight: 600;
-    padding: 1%;
     border-style: none;
     position: relative;
-    left: 80%;
-    top: -50px;
   }
   header #mockups {
     width: 50%;
