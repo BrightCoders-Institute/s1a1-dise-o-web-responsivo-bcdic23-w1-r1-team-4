@@ -33,7 +33,7 @@ $open-sans: 'Open Sans', sans-serif
         height: fit-content
         flex-direction: column
         bottom: 0
-        padding-top: 150px
+        padding-top: 100px
         padding-bottom: 50px
 
         .footer__vertical-alignment
@@ -48,12 +48,21 @@ $open-sans: 'Open Sans', sans-serif
             align-items: center
             height: fit-content
 
-    .button-card
+    #button-card
         font-family: $poppins-font
-        z-index: -10
-        position: relative
-        margin: 5% 2.5% -80% 2.5%
-        margin-bottom: -300px
+        font-size: 10px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-evenly
+        background-color: white
+        z-index: 1
+        margin-bottom: -100px
+        border-radius: 10px
+        padding: 8%
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+        width: 80%
+        height: 100px
     main
 
         display: flex
@@ -90,7 +99,6 @@ $open-sans: 'Open Sans', sans-serif
         width: 80%
         border-radius: 100px
         font-weight: 600
-        margin-bottom: 25%
         padding: 4%
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
 
@@ -183,8 +191,7 @@ $open-sans: 'Open Sans', sans-serif
         .main-card
             display: flex
             flex-direction: row-reverse
-            justify-content: space-between
-
+            justify-content: space-evenly
             height: 5%
             border-radius: 10px
             padding: 2% 2% 2% 5%
