@@ -3,6 +3,7 @@
 @media (min-width: 375px) and (max-width: 1439px) {
   h1 {
     font-family: "Poppins";
+    font-weight: 700;
   }
   body {
     display: flex;
@@ -63,6 +64,7 @@
   main p {
     font-family: "Open Sans", sans-serif;
     color: hsl(208, 11%, 55%);
+    font: 400;
   }
   main h1 {
     font-family: "Poppins", sans-serif;
@@ -193,10 +195,12 @@
   main p {
     font-family: "Open Sans", sans-serif;
     color: hsl(208, 11%, 55%);
+    font-weight: 400;
   }
   main h1 {
     font-family: "Poppins", sans-serif;
     color: hsl(192, 100%, 9%);
+    font-weight: 700;
   }
   main .main-card {
     display: flex;
@@ -246,8 +250,10 @@
     padding: 0% 40%;
     position: relative;
     right: 37%;
+    font-weight: 700;
   }
   header p {
+    font-weight: 400;
     font-family: "Open Sans", sans-serif;
     color: hsl(192, 100%, 9%);
     padding: 1% 38%;
