@@ -8,7 +8,7 @@
   - [Dónde encontrar todo](#dónde-encontrar-todo)
   - [Construyendo tu proyecto](#construyendo-tu-proyecto)
 - [Recursos](#recursos)
-  
+
 # Diseño Web
 
 # Objetivos
@@ -36,6 +36,8 @@ Esta actividad tiene como objetivos:
 - Archivo README.md actualizado
 - La versión final del código deberá estar en la rama principal
 - Página web publicada en [GitHub Pages](https://pages.github.com), [Netlify](https://www.netlify.com) or [Vercel](https://vercel.com/) o similar.
+  LINK PAGINA WEB:
+  https://brightcoders-institute.github.io/s1a1-dise-o-web-responsivo-bcdic23-w1-r1-team-4/
 
 # Tecnologías
 
@@ -70,7 +72,7 @@ Siéntete libre de utilizar cualquier flujo de trabajo con el que te sientas có
 
 ¡Coloca tu página web publicada en tu repositorio!
 
-*Este desafío fue tomado de [Frontend Mentor](https://www.frontendmentor.io)*
+_Este desafío fue tomado de [Frontend Mentor](https://www.frontendmentor.io)_
 
 # Recursos
 

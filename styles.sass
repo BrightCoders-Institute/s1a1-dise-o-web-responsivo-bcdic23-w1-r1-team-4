@@ -1,0 +1,395 @@
+
+@import url(https://fonts.google.com/specimen/Open+Sans)
+@import url(https://fonts.google.com/specimen/Poppins)
+
+$Pink: hsl(322, 100%, 66%)
+$Very-Pale-Cyan: hsl(193, 100%, 96%)
+$Very-Dark-Cyan: hsl(192, 100%, 9%)
+$Grayish-Blue: hsl(208, 11%, 55%)
+$dark-blue: hsl(192, 100%, 9%)
+$font-size: 18px
+$font-weight-thin: 400
+$font-weight-thick: 600
+$font-weight-thickest: 700
+$poppins-font: 'Poppins', sans-serif
+$open-sans: 'Open Sans', sans-serif
+
+@media (min-width: 375px ) and (max-width: 1439px)
+
+    h1
+        font-family: 'Poppins'
+        font-weight: $font-weight-thickest
+    body
+        display: flex
+        flex-direction: column
+        padding: 0
+        margin: 0
+        align-items: center
+    footer
+        margin: 0
+        background-color: $dark-blue
+        color: white
+        display: flex
+        justify-content: space-around
+        height: fit-content
+        flex-direction: column
+        bottom: 0
+        padding-top: 100px
+        padding-bottom: 50px
+        font-family: $poppins-font
+
+        .footer__vertical-alignment
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+        .footer__horizontal-alignment
+            font-size: 10px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            height: fit-content
+
+    #button-card
+        font-family: $poppins-font
+        font-size: 10px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-evenly
+        background-color: white
+        z-index: 1
+        margin-bottom: -100px
+        border-radius: 10px
+        padding: 8%
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+        width: 80%
+        height: 100px
+    main
+
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        margin: 0
+        padding-bottom: 20%
+
+        p
+            font-family: $open-sans
+            color: $Grayish-Blue
+            font: $font-weight-thin
+        h1
+            font-family: $poppins-font
+            color: $dark-blue
+
+        .main-card
+
+            border-radius: 10px
+            padding: 8%
+            margin: 5% 2.5%
+            border: 2px
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+            width: 80%
+            font-size: 8px
+
+            img
+                width: 100%
+
+    .pink-button
+        color: white
+        border-style: none
+        background-color: $Pink
+        width: 80%
+        border-radius: 100px
+        font-weight: 600
+        padding: 4%
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+
+    header
+        padding-top: 10%
+        display: flex
+        flex-direction: column
+        margin: 0
+        align-items: center
+        text-align: center
+        background-image: url("./img/bg-hero-mobile.svg")
+        background-size: cover
+        background-position: center
+        text-align: center
+        margin-bottom: 10%
+
+        h1
+            font-family: $poppins-font
+            color: $dark-blue
+            margin-top: 30%
+
+        p
+            font-family: $open-sans
+            color: $dark-blue
+            padding: 7% 10%
+        img
+            width: 80%
+        .pink-button
+            color: white
+            border-style: none
+            background-color: $Pink
+            width: 80%
+            border-radius: 100px
+            font-weight: 600
+            margin-bottom: 25%
+            padding: 4%
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+
+        #top-header-container
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            width: 90%
+            position: relative
+            #homeicon
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                width: 25%
+                position: relative
+            #header-button
+                width: 40%
+                height: 30px
+                border-radius: 20px
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+                font-family: $poppins-font
+                background-color: white
+                font-weight: 600
+                border-style: none
+                position: relative
+
+            img
+                width: 30%
+                height: 30%
+
+    ul
+        list-style: none
+
+        li
+            margin-top: 25px
+    .icons
+        display: flex
+        flex-direction: row
+        justify-content: space-evenly
+        padding-top: 10%
+        height: 80px
+        width: 100%
+        svg
+            width: 13%
+
+@media (min-width: 1440px)
+
+    body
+        display: flex
+        flex-direction: column
+        padding: 0
+        margin: 0
+        align-items: center
+    main
+        font-size: 20px
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        margin: 0
+        padding-bottom: 20%
+
+        p
+            font-family: $open-sans
+            color: $Grayish-Blue
+            font-weight: $font-weight-thin
+        h1
+            font-family: $poppins-font
+            color: $dark-blue
+            font-weight: $font-weight-thickest
+
+        .main-card
+            display: flex
+            flex-direction: row-reverse
+            justify-content: space-evenly
+            height: 5%
+            border-radius: 10px
+            padding: 2% 2% 2% 5%
+            margin: 2% 2.5%
+            border: 2px
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+            width: 80%
+            div
+                display: flex
+                flex-direction: column
+                align-content: center
+                text-align: left
+                width: 40%
+                padding: 10% 0
+
+            img
+                width: 30%
+        #mid-card
+            flex-direction: row
+
+    header
+        padding-top: 2%
+        display: flex
+        flex-direction: column
+        margin: 0
+        align-items: left
+        text-align: left
+        background-image: url("./img/bg-hero-desktop.svg")
+        background-size: 1440px 718px
+        background-position: center
+        background-repeat: no repeat
+        text-align: left
+        background-color: #edfbfe
+        width: 100%
+        h1
+            font-family: $poppins-font
+            color: $dark-blue
+            margin-top: 10%
+            padding: 0% 40%
+            position: relative
+            right: 37%
+            font-weight: $font-weight-thickest
+
+        p
+            font-weight: $font-weight-thin
+            font-family: $open-sans
+            color: $dark-blue
+            padding: 1% 38%
+            position: relative
+            right: 35%
+
+        .pink-button
+            color: white
+            border-style: none
+            background-color: $Pink
+            width: 23%
+            border-radius: 100px
+            font-weight: 600
+            margin-bottom: 10%
+            padding: 2%
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+            margin-left: 35px
+
+        #top-header-container
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            width: 100%
+            position: relative
+            margin-bottom: 10%
+            #homeicon
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                width: 20%
+                position: relative
+            #header-button
+                width: 15%
+                padding: auto
+                height: 40px
+                border-radius: 20px
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+                font-family: $poppins-font
+                background-color: white
+                font-weight: 600
+                border-style: none
+                position: relative
+
+        #mockups
+            width: 50%
+            height: 50%
+            position: relative
+            left: 40%
+            top: -500px
+    footer
+        background-color: $dark-blue
+        bottom: 0
+        color: white
+        display: flex
+        flex-direction: row
+        font-family: $open-sans
+        height: fit-content
+        justify-content: space-around
+        margin: 0
+        padding: 30px 50px 30px 50px
+        width: 100%
+
+        .footer__vertical-alignment
+            margin-top: 100px
+            display: flex
+            flex-direction: row
+            width: fit-content
+            position: relative
+            padding: 0 0 0 15%
+
+        #first
+            position: relative
+            padding: 0 50px 0 0
+            width: 100%
+        #second
+            position: relative
+            margin: 15px 100px 0 0
+
+            li
+                width: 100%
+        .footer__horizontal-alignment
+            font-size: 10px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            width: 180%
+
+            svg
+                width: 33%
+
+        .icons
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            padding-top: 10%
+            height: 80px
+            padding: 0 -50px 0 0
+
+            svg
+                padding: 0 -20px
+    #Lorem
+        width: 85%
+    #button-card
+        font-family: $poppins-font
+        font-size: 10px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-evenly
+        background-color: white
+        z-index: 1
+        margin-bottom: -100px
+        border-radius: 10px
+        padding: 5%
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+        width: 30%
+        height: 30px
+        color: $dark-blue
+
+    .pink-button
+        color: white
+        border-style: none
+        background-color: $Pink
+        width: 80%
+        border-radius: 100px
+        font-weight: 600
+        padding: 4%
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.27)
+
+    ul
+        padding: 0
+        list-style: none
+
+        li
+            margin-top: 25px
